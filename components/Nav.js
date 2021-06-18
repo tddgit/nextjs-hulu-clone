@@ -5,6 +5,9 @@ function Nav() {
       <div className="flex px-10 space-x-10 overflow-x-scroll text-2xl sm:space-x-20 sm:px-20 whitespace-nowrap scrollbar-hide">
         {Object.entries(requests).map(([key, { title, url }]) => (
           <h2
+            onClick={() => {
+              router.push(`/?genre=${key}`);
+            }}
             key={key}
             className="transition duration-100 cursor-pointer hover:scale-125 hover:text-white active:text-red-500 "
           >

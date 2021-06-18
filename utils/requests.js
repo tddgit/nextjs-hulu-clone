@@ -7,43 +7,43 @@ export default {
   },
   fetchTopRated: {
     title: 'Top Rated',
-    url: `/trending/top_rated/week?api_key=${API_KEY}&language=en-US`,
+    url: `/movie/top_rated?api_key=${API_KEY}&language=en-US`,
   },
   fetchAction: {
     title: 'Action',
-    url: `/trending/movie?api_key=${API_KEY}&language=en-US&with_genres=28`,
+    url: `/discover/movie?api_key=${API_KEY}&with_genres=28`,
   },
   fetchComedy: {
     title: 'Comedy',
-    url: `/trending/movie?api_key=${API_KEY}&language=en-US&with_genres=35`,
+    url: `/discover/movie?api_key=${API_KEY}&with_genres=35`,
   },
 
   fetchHorror: {
     title: 'Horror',
-    url: `/trending/movie?api_key=${API_KEY}&language=en-US&with_genres=27`,
+    url: `/discover/movie?api_key=${API_KEY}&with_genres=27`,
   },
   fetchRomance: {
     title: 'Romance',
-    url: `/trending/movie?api_key=${API_KEY}&language=en-US&with_genres=10749`,
+    url: `/discover/movie?api_key=${API_KEY}&with_genres=10749`,
   },
   fetchMystery: {
     title: 'Mystery',
-    url: `/trending/movie?api_key=${API_KEY}&language=en-US&with_genres=9648`,
+    url: `/discover/movie?api_key=${API_KEY}&with_genres=9648`,
   },
   fetchSciFi: {
     title: 'Sci-Fi',
-    url: `/trending/movie?api_key=${API_KEY}&language=en-US&with_genres=878`,
+    url: `/discover/movie?api_key=${API_KEY}&with_genres=878`,
   },
   fetchWestern: {
     title: 'Western',
-    url: `/trending/movie?api_key=${API_KEY}&language=en-US&with_genres=37`,
+    url: `/discover/movie?api_key=${API_KEY}&with_genres=37`,
   },
   fetchAnimation: {
     title: 'Animation',
-    url: `/trending/movie?api_key=${API_KEY}&language=en-US&with_genres=16`,
+    url: `/discover/movie?api_key=${API_KEY}&with_genres=16`,
   },
   fetchTVMovie: {
     title: 'TV Movie',
-    url: `/trending/movie?api_key=${API_KEY}&language=en-US&with_genres=10770`,
+    url: `/discover/movie?api_key=${API_KEY}&with_genres=10770`,
   },
 };
